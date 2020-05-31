@@ -1,0 +1,162 @@
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\73707667DF056B55AAD458BD849CC16D\GOOGLETEST-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\73707667DF056B55AAD458BD849CC16D\GOOGLETEST-DOWNLOAD.RULE
+setlocal
+cd E:\USU\2019-2020\CS3460\TypeAhead\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/tmp/googletest-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\73707667DF056B55AAD458BD849CC16D\GOOGLETEST-UPDATE.RULE
+setlocal
+cd E:\USU\2019-2020\CS3460\TypeAhead\build\googletest-src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/tmp/googletest-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\73707667DF056B55AAD458BD849CC16D\GOOGLETEST-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\73707667DF056B55AAD458BD849CC16D\GOOGLETEST-CONFIGURE.RULE
+setlocal
+cd E:\USU\2019-2020\CS3460\TypeAhead\build\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\73707667DF056B55AAD458BD849CC16D\GOOGLETEST-BUILD.RULE
+setlocal
+cd E:\USU\2019-2020\CS3460\TypeAhead\build\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\73707667DF056B55AAD458BD849CC16D\GOOGLETEST-INSTALL.RULE
+setlocal
+cd E:\USU\2019-2020\CS3460\TypeAhead\build\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\73707667DF056B55AAD458BD849CC16D\GOOGLETEST-TEST.RULE
+setlocal
+cd E:\USU\2019-2020\CS3460\TypeAhead\build\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\441896FA0C9C62F58B834E1C487E0D0A\GOOGLETEST-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/CMakeFiles/Debug/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\5BEFB1D60D26CEBB2BA57B54A13D3779\GOOGLETEST.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download -BE:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download --check-stamp-file E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

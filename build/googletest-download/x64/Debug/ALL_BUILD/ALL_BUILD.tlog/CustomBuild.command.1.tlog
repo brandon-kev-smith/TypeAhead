@@ -1,0 +1,10 @@
+^E:\USU\2019-2020\CS3460\TYPEAHEAD\BUILD\GOOGLETEST-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download -BE:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download --check-stamp-file E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
