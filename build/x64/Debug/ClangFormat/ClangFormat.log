@@ -1,2 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1875,5): warning : The referenced project 'E:\USU\2019-2020\CS3460\TypeAhead\build\ZERO_CHECK.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1065,5): error MSB3191: Unable to create directory "E:\USU\2019-2020\CS3460\TypeAhead\build\CMakeFiles\". Could not find a part of the path 'E:\USU\2019-2020\CS3460\TypeAhead\build\CMakeFiles\'.

@@ -1,3 +1,0 @@
-E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/CMakeFiles/googletest.dir
-E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/CMakeFiles/ALL_BUILD.dir
-E:/USU/2019-2020/CS3460/TypeAhead/build/googletest-download/CMakeFiles/ZERO_CHECK.dir
